@@ -2,7 +2,7 @@
 - hosts: all
   sudo : yes
   
-  sudo_user: test
+  ansible_user: test
   tasks:
     - name: Updating system
       command: "{{ item }}"
