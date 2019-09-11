@@ -2,7 +2,7 @@
 - hosts: all
   become : yes
   
-  sudo_user: root
+  sudo_user: test
   tasks:
     - name: Updating system
       command: "{{ item }}"
